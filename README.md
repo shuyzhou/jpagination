@@ -1,4 +1,4 @@
- # A Pagination Plugin for jQuery
+ # Plugin for jQuery
  name:jPagination
  author:shuyzhou
 

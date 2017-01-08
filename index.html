@@ -1,0 +1,20 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>pagination</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/jpagination.css">
+<script type="text/javascript" src = "js/jquery-3.1.1.js"></script>
+<script type="text/javascript" src = "js/jquery.jpagination.js"></script>
+</head>
+<body>
+<div id="result"></div>
+  <div id="pagination"></div>
+  <script type="text/javascript">
+  	$("#pagination").jPagination({currentPage : 7 ,maxPage : 25 ,callback: function (page) {
+  		$("#result").html("change to page : "+page+"!");
+  	}});
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+#pagination a {
+	padding: 10px;
+	margin-left: 10px; 
+	border: 1px solid #cccccc;
+	color: #cccccc;
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+}
+#pagination .item {
+	width: 16px
+}
+#pagination .dot, #pagination .total {
+	margin-left: 10px;
+	cursor: default; 
+}
+#pagination .disabled {
+	background-color: #cccccc;
+	color: #ffffff;
+	cursor: default; 
+}
+#pagination .input,
+#pagination .confirm {
+	width: 35px;
+	height: 24px;
+	padding: 0;
+	font-size: 12px;
+    line-height: 22px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+	outline: none;
+}
+#pagination .text,
+#pagination .total,
+#pagination .input,
+#pagination .confirm {
+	vertical-align: middle;
+}

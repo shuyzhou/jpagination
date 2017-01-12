@@ -112,7 +112,7 @@ JPagination.prototype = {
         this.displayItem(start,end);
       }
       this.options.currentPage = page;
-      //改变样式
+      //change style
       if(page == 1){
         this.prev.addClass("disabled");
       }
@@ -159,7 +159,7 @@ JPagination.prototype = {
           jPagination.refreshItems();
     	}
   	};
-   /*** jQuery plugin facade ***/
+   //jQuery plugin facade
   $.fn.jPagination = function(method,options) {
     if(typeof options === 'object'){
       if(method && methods[method]){

@@ -11,10 +11,10 @@
 <div id="result"></div>
   <div id="pagination"></div>
   <script type="text/javascript">
-  	$("#pagination").jPagination({currentPage : 7 ,maxPage : 25 ,callback: function (page) {
+  	$("#pagination").jPagination('init',{currentPage : 7 ,maxPage : 25 ,callback: function (page) {
   		$("#result").html("change to page : "+page+"!");
   	}});
-
+  	$("#pagination").jPagination('set',{maxPage : 18});
   </script>
 </body>
 </html>

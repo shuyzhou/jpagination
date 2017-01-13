@@ -3,11 +3,11 @@ name:jPagination
 author:shuyzhou
 # Get Started
 There is a example to show how to use the plugin for pagination.     
-In the HTML file, you should add only one DOM element to be the container of pagination.
+In the HTML file, you should add only one DOM element as the container of pagination.
 ```
 <div id="pagination"></div>
 ```
-Here is how to init the config of pagination.
+Here is how to config the pagination.
 ```
 $("#pagination").jPagination(['init',]{
 	currentPage : 7 ,

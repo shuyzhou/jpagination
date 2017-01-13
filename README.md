@@ -1,6 +1,6 @@
 # jQuery Pagination Plugin
-name:jPagination      
-author:shuyzhou
+Name: jPagination      
+Author: shuyzhou
 # Get Started
 There is a example to show how to use the plugin for pagination.     
 In the HTML file, you should add only one DOM element as the container of pagination.

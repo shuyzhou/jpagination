@@ -7,7 +7,7 @@ In the HTML file, you should add only one DOM element as the container of pagina
 ```
 <div id="pagination"></div>
 ```
-Here is how to config the pagination.
+Here is how to initialize a pagination.
 ```
 $("#pagination").jPagination(['init',]{
 	currentPage : 7 ,
